@@ -58,7 +58,7 @@ void loop()
     dataFile.print(",");
     dataFile.print(rtc.getTimeStr());           //Prints time
     dataFile.print(",");
-   dataFile.print(content.substring(1));
+   dataFile.print(content.substring(1));        //Prints RFID Value
     dataFile.println();     // Prints new line
     dataFile.close();       //Closes file
         }
