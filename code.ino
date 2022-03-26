@@ -13,7 +13,7 @@ Servo servo_latch;
 
 void setup()
 {
-Serial.begin(9600);
+Serial.begin(9600);     //9600 baud rate
 SPI.begin();
 SD.begin(4);      // As we have connected CS pin of SC card module to digital pin 4 of arduino
 rtc.begin();
